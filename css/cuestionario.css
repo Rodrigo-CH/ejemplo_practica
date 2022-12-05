@@ -1,0 +1,26 @@
+p{
+    font-size: 20px;
+    color: rgb(243, 242, 242);
+}
+.parrafo{
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.incorrecto{
+    color: #ff0000;
+    font-size: 20px;
+}
+.correcto{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+.malo{
+    color: white;
+    font-size: 20px;
+}
+.bueno{
+    color: white;
+    font-size: 20px;
+}
+  

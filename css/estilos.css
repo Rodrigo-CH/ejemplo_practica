@@ -1,0 +1,123 @@
+nav{
+    background-color: rgb(35, 38, 41);
+	height:8%;
+	width: 100%;
+	position: absolute;
+    top: 0%;
+    left: 0%;
+}
+a{
+    font-size: 32px;
+    color: rgb(243, 242, 242);
+}
+.centrado{
+    text-align: center;
+}
+.parrafos{
+    color: rgb(123, 123, 143);
+    font-weight: bold;
+    font-size: 32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.texto{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.H1{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.botones{
+    border: 3px solid lightgray;
+    padding: 5px;
+    margin: 3px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgba(0, 195, 255, 0.644);
+    font-size: 1em;
+    color: rgb(15, 15, 15);
+}
+.botones:hover{
+    background-color: #5da06bfe;
+}
+.contenedor{
+    width: 1000px;
+    height: 40px;
+    padding: top 15px;
+    background-color:  rgb (160, 189, 164,);
+    text-align: center;
+    font-weight: bold;
+}
+.ventana{
+    border-radius: 2px solid black;
+    margin-left: 5%; 
+    margin-top:-2%;font-size:20pt;
+}
+.cerrar {
+    transition: 0s;
+    visibility: hidden;
+}
+.recuadro{
+    position: relative;
+    margin: auto;
+    width:  1000px;
+    height: 80px;
+    background-color: rgb(187, 131, 131);
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transition: 0.2s;
+}
+.fondoNaveg{
+    background-color: black;
+    padding: 40px;
+    width: 1200px;
+    height: 300px;
+    border-radius: 40px;
+    margin-left: 1.6%;
+}
+
+.menu > ul {
+    list-style: none;
+    display: inline;
+    margin-bottom: 5px;
+}
+.menu > ul > li {
+    display: inline-block;
+    background-color: transparent;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+.menu > ul > li > a {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(119, 17, 17);
+    text-decoration: none;
+}
+.menu > ul > li > a:hover {
+    color: white;
+    border: 5px solid transparent;
+    padding: 1px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+  
+  
